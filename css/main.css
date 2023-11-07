@@ -124,6 +124,25 @@ button {
     color: #00A656;
     text-decoration: none;
 }
+
+.provider-info{
+    font-size: 10px;
+    line-height: 15px;
+    padding: 22px 16px 0;
+    color: #CFCFCF;
+}
+.flex-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+b{
+    font-weight: 600;
+}
+.provider-info b{
+    display: inline-block;
+    margin-right: 4px;
+}
 .adviceofchargebox{
     display: flex;
     flex-direction: row;
@@ -202,7 +221,7 @@ input[type=checkbox] {
 
 footer {
     margin: 0;
-    padding: 35px 12px 0;
+    padding: 12px 12px 0;
 }
 .footer-menu-row {
     display: flex;
