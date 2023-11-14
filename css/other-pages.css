@@ -603,16 +603,16 @@ input[type=checkbox] {
     width: 100%;
     text-decoration: none;
 }
-.block-link:after{
-    content: ' ';
-    background-image: url("../img/arrow-backwards-green.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 10px;
-    height: 15px;
-    display: block;
-    transform: rotate(180deg);
-}
+/*.block-link:after{*/
+/*    content: ' ';*/
+/*    background-image: url("../img/arrow-backwards-green.svg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    width: 10px;*/
+/*    height: 15px;*/
+/*    display: block;*/
+/*    transform: rotate(180deg);*/
+/*}*/
 .block-link:hover{
     text-decoration: none;
     background-color: #f8f9fa;
@@ -625,7 +625,7 @@ input[type=checkbox] {
 }
 .bold-font{
     font-weight: 700;
-    color: gray;
+    color: #808080;
     font-size: 12px;
 }
 .content.bold-font{
@@ -635,7 +635,7 @@ input[type=checkbox] {
     max-width: 100%;
 }
 .bold-font p{
-    color: gray;
+    color: #808080;
 }
 .bold-font p{
     margin-bottom: 16px;
