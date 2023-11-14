@@ -584,9 +584,7 @@ input[type=checkbox] {
     font-size: 15px;
     line-height: 18px;
 }
-.color-block-title{
 
-}
 .block-link{
     color: #15232b;
     font-weight: 700;
@@ -699,6 +697,10 @@ footer .logo-wrapper{
 }
 .footer-bg{
     padding-bottom: 16px;
+}
+.container-fluid.footer-bg{
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 @media screen and (max-width: 1400px){
